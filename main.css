@@ -1,0 +1,95 @@
+body {
+  background-color: white;
+  color: darkgreen;
+}
+
+h1 {
+  font-family: 'Cormorant Upright', serif;
+  font-weight: bold;
+  font-size: 24px;
+  margin: 0px;
+}
+
+h2 {
+  font-family: Helvetica;
+  font-weight: normal;
+  font-style: italic;
+  font-size: 18px;
+  margin: 0px;
+  margin-top: 2px;
+}
+
+h3 {
+  font-family: Helvetica;
+  font-weight: bolder;
+  font-size: 18px;
+  margin: 0px;
+}
+
+p {
+  font-family: Helvetica;
+  font-weight: normal;
+  font-size: 18px;
+  margin: 0px;
+}
+
+.song-container {
+	margin: 25px;
+	padding: 1rem;
+	border: 1px solid black;
+	border-radius: 25px;
+	display: grid;
+	grid-gap: 2rem;
+	grid-template-columns: 1fr 1fr;
+}
+
+.song-image {
+  width: 50%;
+  height: auto;
+  display: none;
+}
+
+.song-year {
+	display: none;
+}
+
+.song-lyrics {
+	display: none;
+}
+
+.song-rating {
+	display: none;
+}
+
+.song-genres {
+	display: none;
+}
+
+.song-image.active {
+	display: block;
+}
+
+.song-year.active {
+	display: block;
+}
+
+.song-lyrics.active {
+	display: block;
+}
+
+.song-rating.active {
+	display: block;
+}
+
+.song-genres.active {
+	display: block;
+}
+
+.filter1 {
+  font-family: Helvetica;
+  font-weight: normal;
+  font-size: 18px;
+  margin-left: 32px;
+  margin-top: 20px;
+  word-spacing: 5px;
+}
