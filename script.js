@@ -97,11 +97,9 @@ function showSongs() {
 		filterPop.addEventListener("click", function() {
 
 			if (songContainer.classList.contains("pop")) {
-				songContainer.style.background = "darkgreen"
-				songContainer.style.color = "white"
+				songContainer.style.display = "block";
 			} else {
-				songContainer.style.background = "white";
-				songContainer.style.color = "darkgreen"
+				songContainer.style.display = "none";
 			}
 		})
 
@@ -109,11 +107,9 @@ function showSongs() {
 		filterRap.addEventListener("click", function() {
 
 			if (songContainer.classList.contains("rap")) {
-				songContainer.style.background = "darkgreen"
-				songContainer.style.color = "white"
+				songContainer.style.display = "block";
 			} else {
-				songContainer.style.background = "white";
-				songContainer.style.color = "darkgreen"
+				songContainer.style.display = "none";
 			}
 		})
 
@@ -121,11 +117,9 @@ function showSongs() {
 		filterHip_Hop.addEventListener("click", function() {
 
 			if (songContainer.classList.contains("hip_hop")) {
-				songContainer.style.background = "darkgreen"
-				songContainer.style.color = "white"
+				songContainer.style.display = "block";
 			} else {
-				songContainer.style.background = "white";
-				songContainer.style.color = "darkgreen"
+				songContainer.style.display = "none";
 			}
 		})
 
@@ -133,11 +127,9 @@ function showSongs() {
 		filterNeo_Soul.addEventListener("click", function() {
 
 			if (songContainer.classList.contains("neo_soul")) {
-				songContainer.style.background = "darkgreen"
-				songContainer.style.color = "white"
+				songContainer.style.display = "block";
 			} else {
-				songContainer.style.background = "white";
-				songContainer.style.color = "darkgreen"
+				songContainer.style.display = "none";
 			}
 		})
 
@@ -145,11 +137,9 @@ function showSongs() {
 		filterAlternative_Indie.addEventListener("click", function() {
 
 			if (songContainer.classList.contains("alternative_indie")) {
-				songContainer.style.background = "darkgreen"
-				songContainer.style.color = "white"
+				songContainer.style.display = "block";
 			} else {
-				songContainer.style.background = "white";
-				songContainer.style.color = "darkgreen"
+				songContainer.style.display = "none";
 			}
 		})
 
@@ -157,11 +147,9 @@ function showSongs() {
 		filterRock.addEventListener("click", function() {
 
 			if (songContainer.classList.contains("rock")) {
-				songContainer.style.background = "darkgreen"
-				songContainer.style.color = "white"
+				songContainer.style.display = "block";
 			} else {
-				songContainer.style.background = "white";
-				songContainer.style.color = "darkgreen"
+				songContainer.style.display = "none";
 			}
 		})
 
@@ -169,21 +157,16 @@ function showSongs() {
 		filterDance_Electronic.addEventListener("click", function() {
 
 			if (songContainer.classList.contains("dance_electronic")) {
-				songContainer.style.background = "darkgreen"
-				songContainer.style.color = "white"
+				songContainer.style.display = "block";
 			} else {
-				songContainer.style.background = "white";
-				songContainer.style.color = "darkgreen"
+				songContainer.style.display = "none";
 			}
 		})
 
 		var filterReset = document.querySelector('.js-reset')
 		filterReset.addEventListener("click", function(){
-			songContainer.style.background = "white";
-				songContainer.style.color = "darkgreen"
+				songContainer.style.display = "block";
 			})
-
-
 
 	});
 }
