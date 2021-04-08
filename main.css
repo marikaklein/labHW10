@@ -16,7 +16,8 @@ h2 {
   font-style: italic;
   font-size: 18px;
   margin: 0px;
-  margin-top: 2px;
+  margin-top: 3px;
+  margin-bottom: 3px;
 }
 
 h3 {
@@ -24,13 +25,16 @@ h3 {
   font-weight: bolder;
   font-size: 18px;
   margin: 0px;
+  margin-top: 3px;
+  margin-bottom: 3px;
 }
 
 p {
   font-family: Helvetica;
   font-weight: normal;
   font-size: 18px;
-  margin: 0px;
+  margin-top: 3px;
+  margin-bottom: 3px;
 }
 
 .song-container {
@@ -44,7 +48,7 @@ p {
 }
 
 .song-image {
-  width: 50%;
+  width: 25%;
   height: auto;
   display: none;
 }
