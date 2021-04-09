@@ -47,6 +47,10 @@ p {
 	grid-template-columns: 1fr 1fr;
 }
 
+.song-container:hover {
+	cursor: pointer;
+}
+
 .song-image {
   width: 25%;
   height: auto;
@@ -96,4 +100,8 @@ p {
   margin-left: 32px;
   margin-top: 20px;
   word-spacing: 5px;
+}
+
+.filter1:hover {
+	cursor: pointer;
 }
