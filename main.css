@@ -48,8 +48,7 @@ p {
 }
 
 .song-container:hover {
-	cursor: pointer;
-	cursor: auto;
+  cursor: pointer;
 }
 
 .song-image {
@@ -101,9 +100,4 @@ p {
   margin-left: 32px;
   margin-top: 20px;
   word-spacing: 5px;
-}
-
-.filter1:hover {
-	cursor: pointer;
-	cursor: auto;
 }
