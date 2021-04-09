@@ -48,7 +48,8 @@ p {
 }
 
 .song-container:hover {
-	cursor: grab;
+	cursor: pointer;
+	cursor: auto;
 }
 
 .song-image {
@@ -103,5 +104,6 @@ p {
 }
 
 .filter1:hover {
-	cursor: grab;
+	cursor: pointer;
+	cursor: auto;
 }
